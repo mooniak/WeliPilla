@@ -1,5 +1,6 @@
 # WeliPilla
-Welipilla is a [hindkit](https://github.com/itfoundry/hindkit) based build system for font compiling and interpolation. [Vagrant](https://www.vagrantup.com/) is used to remove platform dependancies and WeliPilla can be used on any major Operating system.  
+Welipilla is a font build system based on [hindkit](https://github.com/itfoundry/hindkit) by ITF. This system uses FontForge, RoboFab, Fonttools to build fonts from `.sfd` and `.ufo` sources. [Vagrant](https://www.vagrantup.com/), a software to create and configure virtual development environments, is used to remove platform dependancies. Therefor WeliPilla can be used on any major Operating system.  
+
 **This repository is just a boilerplate to show where things go. To get a clear idea of this build system please refer our working font projects such as [this](https://github.com/mooniak/stick-no-bills-font).**
 ##Dependancies
 * [Vagrant](https://www.vagrantup.com/)
@@ -7,6 +8,7 @@ Welipilla is a [hindkit](https://github.com/itfoundry/hindkit) based build syste
 
 ##Folder Structure
 Some of the folders, which should be present on a actual font project is not visible here due to gitignore. Following folders are essential for the build process.
+
 |--masters  
 |--build  
 |--sources  
