@@ -2,6 +2,9 @@
 NULL NULL uni0000
 CR CR uni000D
 space space uni0020
+zwnj zwnj uni200C
+zwj zwj uni200D
+dottedcircle dottedcircle uni25CC
 
 ### Vowel letters
 anusvara anusvara uni0D82
@@ -571,11 +574,6 @@ si_Sa.touch	si_Sa.touch
 si_Ha.touch	si_Ha.touch
 si_Lla.touch	si_Lla.touch
 si_Fa.touch	si_Fa.touch
-
-### misc
-zwnj zwnj uni200C
-zwj zwj uni200D
-dottedcircle dottedcircle uni25CC
 
 ###----- End of Sinhala ------###
 
